@@ -1,0 +1,201 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+.header{
+min-height: 100vh;
+width: 100%;
+background-image: background-image: linear-gradient(rgba(4,9,30,0.1), rgba(4,9,30,0.1));
+background-position: center;
+background-size: cover;
+position: relative;
+}
+
+
+nav{
+display: flex;
+padding: 2% 6%;
+justify-content: space-between;
+align-items: center;
+
+}
+nav img{
+height: auto;
+width: 500px;
+}
+.nav-links{
+flex: 1;
+text-align: right;
+
+}
+.nav-links ul li{
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position: relative;
+}
+.nav-links ul li a{
+ color: #000000;
+ text-decoration: none;
+ font-size: 30px
+
+ }
+.nav-links ul li::after{
+ content: '';
+ width: 0%;
+ height: 2px;
+ background: #000000;
+ display: block;
+ margin: auto;
+ transition: 0.1s;
+  }
+.nav-links ul li:hover::after{
+   width: 100%
+   }
+   .text-box{
+   width: 90%
+   color: #000000;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   }
+   .text-box h1{
+   font-size: 50px;
+   font-family: "Courier New", Helvetica, monospace;
+
+   }
+   .text-box p{
+   margin: 10px 0 40px;
+   font-size: 30px;
+   font-family: "Courier New", Helvetica, monospace;
+   color: #000000;
+   }
+
+
+   @media(max width: 700px){
+   .text-box h1{
+   font-size: 50px}
+
+   }
+
+   /*----------------*/
+   #service.service{
+
+   min-height: 100vh;
+   width: 100%;
+   margin: auto;
+   text-align: center;
+   padding-top: 70px;
+   }
+   h1 {
+   font-size: 45px;
+   font-family: "Courier New", monospace;
+   font-weight: 600;
+   }
+   p {
+   font-size: 25px;
+   font-family: "Courier New", monospace;
+   color: #000000
+   font-weight: 300;
+   line-height: 30px;
+   padding: 10px;
+   }
+
+   .row{
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-between;
+   }
+   .service-col{
+   display: inline-block;
+   border: 1px solid #000000;
+   flex-basis: 44%;
+   border-radius: 5px;
+   margin-bottom: 5%;
+   margin-right: 1%;
+   text-align: center;
+   padding: 25px;
+   display: flex;
+   }
+
+   h3{
+   text-align: center;
+   font-weight: 600;
+   font-size: 25px;
+   margin: 10px 0;
+   }
+   .service-col:hover {
+   box-shadow: 0 0 20px 0 px rgba(0,0,0,0,2);
+   }
+
+   .about{
+
+   width: 100%;
+   margin: auto;
+   padding-top: 70px;
+   text-align: center;
+   }
+
+   .about-col{
+   display: inline-block;
+   border: 1px solid #000000;
+   flex-basis: 44%;
+   border-radius: 5px;
+   margin-bottom: 5%;
+   margin-right: 1%;
+   margin-left: 1%;
+   text-align: left;
+
+   padding: 25px;
+   cursor: pointer;
+   display: flex;
+   }
+
+   .about-col p{
+   padding: 0;
+   font-size: 20px;
+   }
+
+   .about-col h3{
+   marginal-top: 15px;
+   text-align: left;
+   }
+
+
+.team{
+width: 60%;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+}
+.team-col{
+flex-basis: 44%
+border-radius: 10px;
+margin-bottom: 5%;
+text-align: left;
+}
+
+.team-col img{
+height: 700px;
+width: 500px;
+border-radius: 5%;
+}
+/*-------------------------   DEVELOPMENT   ---------------------*/
+
+
+/*-------------------------   FOOTER   ---------------------*/
+
+   .footer{
+   width: 100%;
+   text-align: center;
+   padding: 30px 0;
+   }
+
+   .footer h4{
+   margin-bottom: 25px;
+   margin-top: 20px;
+   font-weight: 600;
+   }
