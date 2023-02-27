@@ -1,13 +1,12 @@
-*{
-padding: 0;
-}
+
 .header{
 min-height: 100vh;
 width: 100%;
-background-position: center;
-background-size: cover;
-position: relative;
+
 }
+
+/*------------------------------- NAV -------------------------------*/
+
 nav{
 display: flex;
 padding: 2% 6%;
@@ -48,8 +47,9 @@ position: relative;
 .nav-links ul li:hover::after{
    width: 100%
    }
-
+/*------------------------------------  Page specific code   ----------------------------*/
 .listing{
+margin-bottom: 100px;
 width: 100%
 color: #000000;
 position: absolute;
@@ -61,17 +61,21 @@ text-align: left;
 .text-box-dev h1{
 font-size: 40px;
 font-family: "Courier New", Helvetica, monospace;
+}
+
+.text-box-dev ul li {
+
+font-size: 20px;
+font-family: "Courier New", Helvetica, monospace;
+color: #000000;
+}
+
+.text-box-dev h2{
+font-size: 30px;
+font-family: "Courier New", Helvetica, monospace;
 
 }
 .text-box-dev p{
-margin: 30px 0 40px;
-font-size: 20px;
-font-family: "Courier New", Helvetica, monospace;
-color: #000000;
-}
-
-.text-box-dev hgroup{
-margin: 30px 0 40px;
 font-size: 20px;
 font-family: "Courier New", Helvetica, monospace;
 color: #000000;
@@ -79,24 +83,25 @@ color: #000000;
 
 
 
-
-
-
-
-
-
-
-
-
-
-.footer{
+/*-------------------------------- FOOTER -----------------*/
+footer{
 width: 100%;
-text-align: center;
+text-align: left;
 padding: 30px 0;
+font-size: 15px;
 }
 
-.footer p{
+footer p{
 margin-bottom: 25px;
 margin-top: 20px;
-font-weight: 600;
+font-weight: 60;
+font-size: 25px;
 }
+
+
+
+
+
+
+
+

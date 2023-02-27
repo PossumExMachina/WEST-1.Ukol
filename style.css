@@ -89,7 +89,7 @@ font-size: 50px}
 
 }
 
-/*----------------*/
+/*---------------------------   SERVICES  ---------------------------*/
 #service.service{
 min-height: 50vh;
 
@@ -146,11 +146,10 @@ box-shadow: 0 0 20px 0 px rgba(0,0,0,0,2);
 /*-------------------------   REVIEW   ---------------------*/
 
 .review{
-
 width: 90%;
 margin: auto;
-padding-top: 15px;
-padding-bottom: 130px;
+padding-top: 60px;
+padding-bottom: 15px;
 text-align: center;
 }
 
@@ -176,12 +175,14 @@ font-size: 20px;
 
 }
 
-.contact{
 
+/*------------------------------------ CONTACT ----------------------*/
+
+.contact{
 width: 90%;
 margin: auto;
-padding-top: 15px;
-padding-bottom: 130px;
+padding-top: 30px;
+padding-bottom: 60px;
 text-align: center;
 }
 
@@ -226,17 +227,28 @@ padding: 10px;
 
 /*-------------------------   FOOTER   ---------------------*/
 
-.footer{
+
+
+footer{
 width: 100%;
-text-align: center;
+text-align: left;
 padding: 30px 0;
+font-size: 15px;
 }
 
-.footer p{
+footer p{
 margin-bottom: 25px;
 margin-top: 20px;
-font-weight: 600;
+font-weight: 30;
+font-size: 25px;
 }
+
+
+
+
+
+
+
 
 
 
