@@ -1,60 +1,35 @@
-*{
-margin: 0;
-padding: 0;
 
-}
 .header{
 min-height: 100vh;
 width: 100%;
-background-image: background-image: linear-gradient(rgba(4,9,30,0.1), rgba(4,9,30,0.1));
+background-color: lightgrey;
 background-position: center;
-background-size: cover;
-position: relative;
+
 }
-
-
 nav{
 display: flex;
-padding: 2% 6%;
 justify-content: space-between;
-align-items: center;
-
 }
+
 nav img{
 height: auto;
-width: 300px;
+width: 500px;
 }
-.nav-links{
-flex: 1;
-text-align: right;
 
-}
 .nav-links ul li{
-list-style: none;
 display: inline-block;
 padding: 8px 12px;
 position: relative;
 }
+
 .nav-links ul li a{
  color: #000000;
  text-decoration: none;
  font-size: 30px
 
  }
-.nav-links ul li::after{
- content: '';
- width: 0%;
- height: 2px;
- background: #000000;
- display: block;
- margin: auto;
- transition: 0.1s;
-  }
-.nav-links ul li:hover::after{
-   width: 100%
-   }
    .text-box{
-   width: 90%
+   width: 90%;
    color: #000000;
    position: absolute;
    top: 50%;
@@ -78,11 +53,11 @@ position: relative;
    }
 
 
-   @media(max width: 700px){
-   .text-box h1{
-   font-size: 50px}
 
+   .text-box h1{
+   font-size: 50px
    }
+
 
    /*-------------------------------------------------------------*/
    #service.service{
@@ -101,7 +76,7 @@ position: relative;
    p {
    font-size: 25px;
    font-family: "Courier New", monospace;
-   color: #000000
+   color: #000000;
    font-weight: 300;
    line-height: 30px;
    padding: 10px;
@@ -130,9 +105,7 @@ position: relative;
    font-size: 25px;
    margin: 10px 0;
    }
-   .service-col:hover {
-   box-shadow: 0 0 20px 0 px rgba(0,0,0,0,2);
-   }
+
 
 /*-------------------------------------- ABOUT US -----------------------------*/
 
@@ -165,7 +138,7 @@ position: relative;
    }
 
    .about-col h3{
-   marginal-top: 15px;
+   margin-top: 15px;
    text-align: left;
    }
 
@@ -177,7 +150,7 @@ text-align: center;
 padding-top: 100px;
 }
 .team-col{
-flex-basis: 44%
+flex-basis: 44%;
 border-radius: 10px;
 margin-bottom: 5%;
 text-align: left;
